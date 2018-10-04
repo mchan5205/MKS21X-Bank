@@ -6,5 +6,7 @@ public class Driver{
 		System.out.println(test);
 		test.deposit(100);
 		System.out.println(test.getBalance());
+		test.withdraw(200);
+		System.out.println(test.getBalance());
 	}
 }
