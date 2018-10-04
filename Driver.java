@@ -4,5 +4,7 @@ public class Driver{
 		System.out.println(test.getBalance());
 		System.out.println(test.getAccountID());
 		System.out.println(test);
+		test.deposit(100);
+		System.out.println(test.getBalance());
 	}
 }
