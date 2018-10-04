@@ -1,5 +1,10 @@
 public class BankAccount{
 	private double balance;
 	private int accountID;
-	private String password;			
+	private String password;
+	public BankAccount(double newbalance, int newID, String newpass){
+		balance = newbalance;
+		accountID = newID;
+		password = newpass;
+	}	
 }
