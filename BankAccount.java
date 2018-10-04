@@ -6,5 +6,11 @@ public class BankAccount{
 		balance = newbalance;
 		accountID = newID;
 		password = newpass;
+	}
+	public double getBalance(){
+		return balance;
+	}
+	public int getAccountID(){
+		return accountID;
 	}	
 }
