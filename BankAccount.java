@@ -7,6 +7,9 @@ public class BankAccount{
 		accountID = newID;
 		password = newpass;
 	}
+	public String toString(){
+		return accountID + "\t" + balance;
+	}	
 	public double getBalance(){
 		return balance;
 	}
