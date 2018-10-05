@@ -8,5 +8,8 @@ public class Driver{
 		System.out.println(test.getBalance());
 		test.withdraw(200);
 		System.out.println(test.getBalance());
+		BankAccount test2 = new BankAccount(1000, 33, "pass");
+		test.transferTo(test2, 300, "test");
+		System.out.println(test.getBalance());
 	}
 }
